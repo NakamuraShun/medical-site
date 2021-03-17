@@ -368,6 +368,15 @@ html::-webkit-scrollbar-thumb {
   background: #fcb90f;
 }
 
+/* 範囲指定の色 */
+::-moz-selection {
+  background: #fcb90f;
+}
+
+::selection {
+  background: #fcb90f;
+}
+
 /*  body
 -------------------------------------------------- */
 body {
@@ -2861,8 +2870,8 @@ _page.scss
   }
   .serviceContent .service01__illustBg {
     width: 400px;
-    bottom: -240px;
-    right: -130px;
+    bottom: -280px;
+    right: -170px;
     transform: translateX(0%);
   }
   .serviceContent .service02 .ttl-lvl3::before {
